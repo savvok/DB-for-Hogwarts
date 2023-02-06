@@ -1,9 +1,0 @@
-INSERT INTO s308491.Crystal (Kind, Programming_type) VALUES ('Black','Long hit'), ('Grey','Hit'), ('Yellow','Shot');
-INSERT INTO s308491.Weapon (Kind, Description, Crystal_id) VALUES ('Bone mace','',1), ('Stone','',2), ('Slingshot','',3);
-INSERT INTO s308491.Habitat (Location, Climate) VALUES ('Savannah','Hot'), ('Jungle','Rainy');
-INSERT INTO s308491.Pithecanthrop (Name, Habitat_id) VALUES ('Charlie', 1), ('Bob', 1), ('Jessika', 1);
-INSERT INTO s308491.Animals (Food_type, Kind, Habitat_id) VALUES ('Herbivore','Antelope', 1), ('Carnivore','Lion', 1), ('Carnivore','Eagle',1);
-INSERT INTO s308491.Hunt (Pithecanthrop_id, Animal_id, Booty) VALUES (2 , 1, 'one antelope'), (1, 1, NULL);
-INSERT INTO s308491.Protection_mean (Description) VALUES ('Claw'), ('Fang'), ('Fast legs'), ('Wings');
-INSERT INTO s308491.Belong (Weapon_id, Pithecanthrop_id) VALUES (1,2), (2,2), (3,1);
-INSERT INTO s308491.Possess(Animal_id, Protection_id) VALUES (1,3), (2,1), (2,2), (3,4);
